@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boom-Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Boom Game</h1>
+    <main>
+        <div class="game-container">
+            <div class="menu">
+                <div class="Balance" id="Balance">Money: 1000</div>
+                <button id="start-button" class="buttons">ROLL</button>
+                <button id="collect-button" class="buttons" disabled>TAKE</button>
+                <input type="number" id="bet-input" class="betInput" placeholder="BET" value="100">
+                <input type="number" id="bomb-input" class="bombInput" placeholder="BOMB" value="10">
+            </div>
+            <div class="board"></div>
+        </div>
+    </main>
+    
+    <script src="jquery-3.7.1.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,107 @@
+body {
+    background-color: rgb(101, 101, 101);
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+h1 {
+    font-size: 64px;
+    font-weight: 400;
+    text-align: center;
+    letter-spacing: 20px;
+    text-transform: uppercase;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.game-container {
+    display: flex;
+    align-items: center;
+    width: 1000px;
+    height: 80vh;
+}
+
+.menu {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 700;
+    text-align: center;
+    width: 200px;
+    height: 400px;
+    background-color: rgba(0, 105, 191, 0.848);
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+    padding: 10px;
+    border-radius: 8px;
+    align-items: center;
+    border-width: 2px;
+    border-style: solid;
+}
+
+.board {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 2px;
+}
+
+.cell {
+    width: 60px;
+    height: 60px;
+    background-image: url(diamond.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 100%;
+    cursor: pointer;
+}
+
+.active {
+    background-color: red;
+}
+
+.buttons {
+    width: 85%;
+    height: 50px;
+    margin: 5px;
+    font-weight: 700;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+.betInput {
+    width: 50%;
+    height: 40px;
+    text-align: center;
+    font-weight: 700;
+    border-radius: 10px;
+    font-size: 20px;
+    margin: 5px;
+}
+
+.Balance {
+    width: 50%;
+    height: 40px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 30px;
+    padding-bottom: 50px;
+}
+
+.bombInput {
+    width: 50%;
+    height: 40px;
+    text-align: center;
+    font-weight: 700;
+    border-radius: 10px;
+    font-size: 20px;
+    margin: 5px;
+}
